@@ -1,3 +1,4 @@
+#Aws-auth config map we integrated k8 rbac with IAM to manage eks cluster based on role
 apiVersion: v1
 data:
   mapRoles: |
