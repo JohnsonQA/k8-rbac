@@ -1,4 +1,4 @@
-#Aws-auth config map we integrated k8 rbac with IAM to manage eks cluster based on role
+#Aws-auth config map is used to authenticate IAM users to interact with k8 cluster and its namespaces
 apiVersion: v1
 data:
   mapRoles: |
